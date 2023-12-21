@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: fixed;
+    background: #7c9382;
+    width: 70%;
+    margin: auto;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-image: url("https://www.color-meanings.com/wp-content/uploads/funny-emoticon-faces-yellow-background.png")
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #FEFEDF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.active {
+    color: #F8B400;
+}
+
+.logo {
+    font-size: 25px;
+    color: #F8B400;
+    text-decoration: none;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #000000
+   
+}
+
+.navbar a {
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    overflow-y: hidden;
+    text-align: center;
+    font-size: 20px;
+    color: #716335;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #716335;
+    background-color: inherit;
+    margin: 0;
+    
+}
+
+.Categories {
+    display: none;
+    position: absolute;
+    background-color: #F8B400;
+    min-width: 160px;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.Categories a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.Categories a:hover {
+    background-color: #22668d;
+}
+
+.dropdown:hover .Categories {
+    display: block;
+}
+
+.login {
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 9px 25px;
+    text-decoration: none;
+    transition: .10s;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.Reg{
+    font-size: 20px;
+    background: rgb(30, 111, 187);
+    border-radius: 6px;
+    padding: 9px 25px;
+    text-decoration: none;
+    transition: .10s;
+    color: white;
+}
+.Reg:hover {
+    background: white;
+    border: 1px solid rgb(33, 38, 175);
+    color:black;
+}
+.login:hover {
+    background: rgb(30, 111, 187);
+    border: 1px solid rgb(33, 38, 175);
+    color:black;
+}
+main, article {
+    background-size: cover;
+    background-position: center;
+    padding: 5%;
+}
+main {
+    display: flex;
+}
+
+article {
+    flex: content;
+}
+
+.meme {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.meme img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.meme .generate-meme-btn {
+    background-color: #F8B400;
+    color: #fff;
+    border: none;
+    padding: 8px 35px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 35px;
+}
+.meme .generate-meme-btn:hover {
+    background-color: #9AD0C2;
+    padding: 8px 35px;
+    letter-spacing: 3px; 
+}
+
+aside {
+    flex: 1;
+    margin-left: 10px;
+    background-color: white;
+}
+
+footer {
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    color: plum; }
+
+.msg {
+    font-size: 25px;
+    font-weight: 500;
+    color:rgb(44, 40, 29);
+}  
+
+.therapy {
+    color: #efff5c;
+    font-size: 28;
+    font-weight: 600;
+}
+
+.livelaugh {
+    font-size: 40px;
+    color: #ffc527;
+    text-decoration: none;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #000000
+}
+
+.love {
+    color: rgb(241, 38, 38);
+    font-size: 25px;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px black;
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 20px;
+    color: black;
+}
